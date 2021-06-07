@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    padding-right: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-display{
+    position: relative;
+    width: 70vw;
+    height: 100vh;
+    overflow: hidden;
+}
+#box{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.right-info{
+    top: 0;
+    width: 30vw;
+    height: 100vh;
+    padding: 10px;
+
+}
+
+.right-info .title{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    color:salmon;
+    width: 100%;
+}
+
+.right-info .infoList {
+    padding-top: 10px;
+    font-size: 16px;
+}
+.right-info .infoList > li{
+    /* border: 1px solid yellowgreen; */
+    padding: 8px 0 8px 0;
+}
+.right-info .infoList > li .name{
+    font-weight: bold;
+    /* border: 1px solid red; */
+}
+.right-info .infoList > li .value{
+    color:#666
+}
